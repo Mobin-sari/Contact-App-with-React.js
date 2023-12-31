@@ -1,0 +1,29 @@
+:root {
+    --color-primary: #0A369D;
+    --color-secondary: #a6c2f6 ;
+}
+
+.container {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-bottom: 25px;
+}
+
+.container p a {
+    text-decoration: none;
+    font-weight: 600;
+    padding: 3px;
+    border-radius: 5px;
+    color: var(--color-primary);
+    background-color: var(--color-secondary);
+}
+
+.container p {
+    color: var(--color-success);
+}

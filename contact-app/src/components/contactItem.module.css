@@ -1,0 +1,19 @@
+.lists {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid var(--color-success);
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.lists p {
+    display: flex;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+}
+
+.lists button {
+    cursor: pointer;
+    border: none;
+}
